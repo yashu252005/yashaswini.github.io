@@ -266,6 +266,13 @@
   .proj-card h3{font-size:1.1rem;margin-bottom:8px;}
   .proj-card p{font-size:0.92rem;color:var(--muted);}
   .proj-card .chip-row{margin-top:14px;}
+  .proj-links{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;}
+  .proj-links a{
+    font-family:'JetBrains Mono',monospace;font-size:0.72rem;font-weight:600;
+    text-decoration:none;color:var(--primary);
+    border-bottom:2px solid var(--primary);padding-bottom:1px;
+  }
+  .proj-links a:hover{color:var(--accent);border-color:var(--accent);}
 
   /* ---------- ACHIEVEMENTS ---------- */
   .ach-feature{
@@ -299,6 +306,8 @@
   footer h2{color:#fff;font-size:clamp(2rem,5vw,3.4rem);}
   footer .lead{color:#C9C4E0;margin-top:14px;max-width:520px;}
   .contact-ctas{display:flex;gap:14px;margin-top:32px;flex-wrap:wrap;}
+  footer .btn.ghost{color:#fff;box-shadow:5px 5px 0 var(--lime);}
+  footer .btn.ghost:hover{box-shadow:7px 7px 0 var(--lime);}
   .foot-bottom{
     margin-top:60px;padding-top:24px;border-top:1.5px solid #2A2540;
     display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;
@@ -470,16 +479,36 @@
         <h3>Movie &amp; TV Show Explorer</h3>
         <p>A dynamic search and discovery web app with public API integration — genre/rating filters, detailed title info, and async calls for real-time results.</p>
         <div class="chip-row"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span></div>
+        <div class="proj-links">
+          <a href="https://movie-explorer-f2xd.onrender.com" target="_blank">🔗 Live demo →</a>
+          <a href="https://github.com/yashu252005/movie-explorer" target="_blank">💻 GitHub →</a>
+        </div>
+      </div>
+      <div class="proj-card">
+        <h3>Finance Analytics Dashboard</h3>
+        <p>Interactive Streamlit app for exploring financial datasets — trend tracking, dynamic charts, and automated summary statistics.</p>
+        <div class="chip-row"><span class="chip">Python</span><span class="chip">Streamlit</span><span class="chip">Pandas</span><span class="chip">Data Viz</span></div>
+        <div class="proj-links">
+          <a href="https://finance-analytics-tfrncaywmnsepewiikvmov.streamlit.app" target="_blank">🔗 Live app →</a>
+        </div>
       </div>
       <div class="proj-card">
         <h3>Automated Attendance System</h3>
         <p>A face-recognition Android app for attendance, built with an offline database so it works reliably without constant connectivity.</p>
-        <div class="chip-row"><span class="chip">Android</span><span class="chip">Face Recognition</span></div>
+        <div class="chip-row"><span class="chip">Android Studio</span><span class="chip">Kotlin</span><span class="chip">CameraX</span><span class="chip">Face Recognition</span></div>
       </div>
       <div class="proj-card">
-        <h3>Data Analysis &amp; Visualization Dashboard</h3>
-        <p>An interactive dashboard automating summary statistics, correlation heatmaps, and trend charts from structured datasets.</p>
-        <div class="chip-row"><span class="chip">Python</span><span class="chip">Pandas</span><span class="chip">Matplotlib</span><span class="chip">Seaborn</span></div>
+        <h3>Recipe Finder Website</h3>
+        <p>Led a team of 4 to build a responsive ingredient-based recipe search site with authentication, an interactive carousel, and dynamic filtering.</p>
+        <div class="chip-row"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">Local Storage</span></div>
+      </div>
+      <div class="proj-card">
+        <h3>SAN Communication</h3>
+        <p>Research &amp; design project on Storage Area Network communication — SAN architecture, Fibre Channel &amp; iSCSI protocols, zoning, and LUN masking.</p>
+        <div class="chip-row"><span class="chip">SAN Architecture</span><span class="chip">Fibre Channel</span><span class="chip">iSCSI</span><span class="chip">Networking</span></div>
+        <div class="proj-links">
+          <a href="Yashaswini.pdf" target="_blank">📄 View report →</a>
+        </div>
       </div>
     </div>
   </div>
